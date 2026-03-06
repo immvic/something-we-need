@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: #FFFFFF;
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 0.5rem;
+  margin-top: 3rem;
+}
+
+a {
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.skill-tag {
+  border: 1px solid #FFFFFF;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+
+.role {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.company {
+  font-style: italic;
+}
+
+.date {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
